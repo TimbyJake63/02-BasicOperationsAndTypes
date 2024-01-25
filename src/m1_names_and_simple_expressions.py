@@ -2,7 +2,7 @@ answer = 2 + 5
 print(answer * 1000)
 
 ###############################################################################
-# TODO: 1. (1 pt)
+# DONE: 1. (1 pt)
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
 #     1. Computes 2 plus 5, yielding the object that is
 #          the integer 7.
@@ -26,7 +26,13 @@ print(answer * 1000)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
+answer1 = 77 - 13/2
+print (answer1)
+answer2 = 77 - (13/2)
+print (answer2)
+answer3 = (77-13) / 2
+print (answer3)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 minus the division between 13 and 2.
 #         - Do this in three ways:
@@ -45,7 +51,9 @@ print(answer * 1000)
 ###############################################################################
 
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
+answer4 = 5 ** 2
+print (answer4)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 5 to the 2nd power (HINT: use  **  as the operator)
 #     - Stores the result to a name of your choosing
@@ -54,7 +62,13 @@ print(answer * 1000)
 ###############################################################################
 
 ###############################################################################
-# TODO: 4. (1 pt)
+# DONE: 4. (1 pt)
+result = 7/2
+quotient = 7//2
+remainder = 7%2
+print (result)
+print (quotient)
+print (remainder)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 7 divided by 2 and stores the result to the name  result  .
 #     - Computes just the quotient of 7 divided by 2 (HINT: use  //  as the 
